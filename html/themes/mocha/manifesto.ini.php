@@ -5,7 +5,7 @@
 Name="mocha"
 Depends=Legacy_RenderSystem,legacy
 Url="http://xoops123.com/"
-Version="1.0"
+Version="0.1"
 
 [Theme]
 RenderSystem=Legacy_RenderSystem
