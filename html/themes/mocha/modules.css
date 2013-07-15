@@ -41,6 +41,23 @@ table.d3f_outer tr.odd {
 	margin-bottom:30px;
 }
 
+#d3f_post_form_quick {
+	width: 95%;
+	padding:30px;
+}
+#d3f_post_form_quick input{
+	height: 30px;
+}
+input#guest_name.btn,
+input#guest_pass.btn,
+input#subject.btn {
+	height: 30px;
+}
+
+input#contents_submit.btn {
+	width: 80px;	
+}
+
 table.d3f_postform {
 	width:90%;
 	margin-left: 2em;
@@ -49,11 +66,11 @@ table.d3f_postform td.head,
 table.d3f_postform td.even  {
 	background:transparent;
 }
-/*
-table.d3f_postform td.head {
+#d3f_post_form_quick .d3f_postform .head {
 	width:70px;
 	height:40px;
 }
+/*
 table.d3f_postform td.even  {
 }
 table.d3f_postform textarea , table.d3f_form_table textarea , table.d3f_form_table ,
@@ -64,23 +81,6 @@ table.d3f_postform input.formButton {
 	width:100px;
 }
 */
-
-#d3f_post_form_quick {
-	width: 95%;
-	padding:30px;
-}
-#d3f_post_form_quick input{
-	height: 30px;
-	width: 575px;
-}
-input#guest_name.btn,
-input#guest_pass.btn,
-input#subject.btn {
-	height: 30px;
-}
-input#contents_submit.btn {
-	width: 80px;	
-}
 
 table.inc_d3comment_summary {
 	margin-bottom:1em;
