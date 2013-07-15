@@ -122,12 +122,10 @@
 　プラグインは、解凍してできあがったフォルダ下にある xoops_trust_path/libs/smartyplugins フォルダの modifier.xoops_blocktitleclass.php と modifier.xoops_blocktitleclassdel.php の２種類です。これをサイトのプラグインディレクトリにコピーしてください。（必須です。）
 　また、テーマ下テンプレートで function.xugj_block.php と modifier.xugj_date.php を利用しているので、これも同様にコピーして下さい。
 
-
 　インストールは通常テーマと同じですが、主要モジュールのテンプレートを本テーマに最適化させるため、テーマ下テンプレートとして同封していますので、できればテーマ下テンプレートが有効となるように設定していただいた方が良いでしょう。(その際、同封のプラグインも利用するようにコピー作業等を行ってください。）
 
 　次に、以下の手順でテーマ下テンプレート利用のための作業を行ってください。
 　完了したら通常のテーマと同様、管理画面の「互換モジュール」「テーマの管理」でこのテーマを使用する設定としてください。
-
 
 【テーマ下テンプレートが利用可能な場合】
 
@@ -137,10 +135,9 @@
 　テーマ下テンプレートを利用する場合、xugj_date や xugj_block を利用します。（前述のとおり、modifier.xugj_date.php と function.xugj_block.php が必要）
 
 　「plugin」ディレクトリは、XCL2.1x と XCL2.2 では場所が違うのでご注意ください。
-　　　XCL2.1xの場合　/XOOPS_ROOT_PATH/class/smarty/plugins/ 
+　　　XCL2.1xの場合　/XOOPS_ROOT_PATH/class/smarty/plugins/
 　　　XCL2.2の場合　 /XOOPS_TRUST_PATH/libs/smarty/plugins/　または
 　　　　　　　　　　 /XOOPS_TRUST_PATH/libs/smartyplugins/ （preload「HdXoopsTplHook.class.php」または「HypXoopsTplHook.class.php」を使っている場合、このディレクトリが優先となります。最新のHyperCommonFoncを利用している場合は、同モジュールにて読み込み順の設定等が可能となっています。）
-
 
 【テーマ下テンプレートが利用できない場合】
 
@@ -152,7 +149,6 @@
 　詳細はこちらを参照して下さい。
 　　http://xoops.peak.ne.jp/md/news/index.php?page=article&storyid=450
 
-
 【テーマ下テンプレート利用可能だが、本テーマのテーマ下テンプレートを使いたくない場合】
 
 　逆に、本テーマ下のテンプレートを使いたくない場合は、テーマ下にある「templates」ディレクトリを削除してください。ただし、webphotoモジュール使用時のギャラリー表示などはできなくなります。
@@ -163,7 +159,6 @@
 　３　Default(DB)テンプレート
 
 テンプレートを変更しようとして、Altsysで「現在ActiveなDBテンプレート」をいくら修正しても、テーマ下テンプレートがある場合はそちらが優先されてしまうということに注意が必要です。
-
 
 
 ======================================================
